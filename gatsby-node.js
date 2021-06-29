@@ -30,7 +30,6 @@ exports.createPages = async ({ actions }) => {
             stillDataLeft = false
         }
     }
-    console.log(renderData)
 
     createPage({
         path: '/',
